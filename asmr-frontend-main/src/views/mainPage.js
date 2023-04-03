@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { UilStethoscopeAlt } from '@iconscout/react-unicons'
-import video from '../assets/video.mp4';
+
 // import Login from "../components/register";
 // import token from "../utils/rough";
 const MainPage = () => {
@@ -32,21 +32,7 @@ const MainPage = () => {
       </div>
       <div className="main-title">
 
-        {/* <video className='videoTag' autoPlay loop muted>
-          <source src={video} type='video/mp4' />
-        </video> */}
-        
-        {/* <svg viewBox="0 0 600 300">
-  <symbol id="s-text">
-    <text text-anchor="middle" x="50%" y="50%" dy=".35em">Interstellar</text>
-  </symbol>
-  <use xlinkHref="#s-text" />
-  <use xlinkHref="#s-text" />
-  <use xlinkHref="#s-text" />
-  <use xlinkHref="#s-text" />
-  <use xlinkHref="#s-text" />
-</svg> */}
-
+       
         
         <div className="bg_move">
           <i className="fas fa-palette"></i>
